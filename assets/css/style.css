@@ -1,0 +1,93 @@
+.cont{
+    background-color: #687fa5;
+    /*margin-bottom: 100px;*/
+    padding-bottom:100%;
+    padding-top: 10px;
+    
+  }
+
+.leg{
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+
+  .res{
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 17%;
+  }
+   
+.jumbotron{
+      background-image: url(concert.jpg);
+      background-size: cover;
+      background-position: 0% 45%;
+      color: #FF8C00;
+      margin-top: 12px;
+
+ }
+
+
+    h1 {
+      text-align: center;
+      font-size: 10em;
+
+  }
+  h4{
+    text-align: center;
+    color:white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+    legend{
+      text-align: center;
+    }
+    .form-group{
+      text-align: center;
+  }
+  .textinput{
+    color: #fff;
+  }
+
+  .placeholder{
+    margirn-left: 20px;
+  }
+
+.form-group-button{
+  margin-top: 50px;
+}
+
+input{
+  margin-right: 100px !important;
+}
+
+legend{
+  font-size: 3.5em;
+}
+
+
+a {
+    color:blue;
+    
+}
+
+img{
+  border-radius: 7px;
+}
+
+.textInfo{
+  padding-left: 10px;
+
+}
+.event{
+  background-color:white;
+  border-radius:7px;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+.errorMessage{
+
+  text-align: center;
+  font-size: 150%;
+
+}
+

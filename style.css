@@ -1,0 +1,26 @@
+body{
+    background-color: #687fa5;
+  }
+   
+    .jumbotron{
+      background-image: url(http://www.phishrivieramaya.com/wp-content/uploads/aerial.jpg);
+      background-position: 0% 15%;
+      color: #FF8C00;
+ }
+    h1 {
+      text-align: center;
+      font-size: 10em;
+  }
+    legend{
+      text-align: center;
+    }
+    .form-group{
+      text-align: center;
+  }
+  .textinput{
+    color: #fff;
+  }
+
+  .placeholder{
+    margin-left: 20px;
+  }

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Consearch HomePage</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js" integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/jqueryUI.css">
+    <script src="assets/js/app.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Rammetto+One" rel="stylesheet">
+
+</head>
+
+<body>
+    <!--Jumbotron-->
+    <div class="container cont" style="width: 90%">
+        <div class="jumbotron">
+            <h1 style="font-family: 'Rammetto One', cursive; font-size: 500%;">ConSearch</h1>
+            <h4> All your favorite events in one place</h4>
+        </div>
+    
+    <div class="row">
+        <div class="col-md-12">
+            <!--search form-->
+            <form>
+                <fieldset>
+                    <!-- Form Name -->
+                    <legend class="leg" style="color: white; font-size: 150%;">Search for an Artist or an Event.<br/>Don't know of any? Just hit search and some upcomming Events will be Displayed!
+                    </legend>
+                    <!-- Text input-->
+                    <div class="form-group-artist">
+
+                        <div class="col-md-1 control-label well-default" for="textinput" style="color: white; margin-left: 5%;">Event/Artist
+                        </div>
+
+                        <div class="col-xs-2">
+
+                            <input id="band" name="textinput" type="text" placeholder="" class="form-control input-md-">
+                        </div>
+
+                    </div>
+
+                    <div class="form-group-location">
+
+                        <span class="col-xs-1 control-label" for="textinput" style="color: white;">Location
+                        </span>
+
+                        <div class="col-xs-2" style="margin: 0px; padding: 0px;">
+
+                            <input id="location" name="textinput" type="text" placeholder="Search for city" class="form-control input-sm-" style="margin: 0% 50% 0% 0%; clear: right; margin-right:50%;">
+                        </div>
+
+                    </div>
+
+                    <div class="form-group-radius">
+
+                        <span class="col-xs-1 control-label" for="textinput" style="color: white; margin-left: 2%;">Radius
+                        </span>
+
+                        <div class="col-xs-1" style="margin-right: 3%;">
+
+                            <form id="radius" action="">
+
+                                <select name="miles" id="radius">
+                                    <option value="1">-</option>
+                                    <option value="5">5 miles</option>
+                                    <option value="10">10 miles</option>
+                                    <option value="25">25 miles</option>
+                                    <option value="50">50 miles</option>
+                                    <option value="100">100 miles</option>
+                                </select>
+
+                            </form>
+
+                        </div>
+
+                    </div>
+
+                    <div class="form-group-startD">
+                        <span class="col-xs-1 control-label" for="textinput" style="color: white;">Start Date </span>
+                        <div class="col-xs-1">
+                            <input id="sdate" name="textinput" type="text" placeholder="" class="form-control input-sm-" style="margin-left: -10%; width: 100px;">
+                        </div>
+                    </div>
+
+                    <!-- Button -->
+                    <div class="form-group-button" style="margin-right: 8%;">
+                        <div class="row">
+                            <br/>
+                            <span class="col-md-6 control-label" for="singlebutton"></span>
+                            <div class="col-sm-3">
+                                <button id="singlebutton" name="singlebutton" class="btn btn-default" style="width: 36%;">Search</button>
+                            </div>
+                        </div>
+                </fieldset>
+            </form>
+            </div>
+          <div class="row res">
+          <div class="col-md-12" id="results">
+            
+
+          </div>
+          </div> 
+
+        </div>
+        </div>
+</body>
+
+</html>
